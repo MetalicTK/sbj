@@ -8,35 +8,46 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">성복재단</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor02">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="list.html">최신평가</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="old.html">이전평가</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gesipan.html">우리반 게시판</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="credit.html">사이트 정보</a>
-        </li>
-      </ul>
-    </div>
+<main class="d-flex flex-nowrap">
+<div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4">성복재단</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="list.html" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="list.html"></use></svg>
+          진행중인 평가
+        </a>
+      </li>
+      <li>
+        <a href="old.html" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="old.html"></use></svg>
+          끝난평가
+        </a>
+      </li>
+      <li>
+        <a href="gesipan.html" class="nav-link active" aria-current="page">
+          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="gesipan.html"></use></svg>
+          우리반 게시판
+        </a>
+      </li>
+      <li>
+        <a href="credit.html" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="credit.html"></use></svg>
+          사이트정보
+        </a>
+      </li>
+    </ul>
+    <hr>
   </div>
-</nav>
 <body>
-   <div style="display: flex;">
+<body>
+   <div style="d-flex;">
 	<!-- 카드 -->
-    <div class="card" style="width: 120rem;">
+    <div class="card" style="width: 60rem;">
         <img src="img/new_gesipan.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">평가 외 게시판에 붙어있는 정보들 목록</h5>
